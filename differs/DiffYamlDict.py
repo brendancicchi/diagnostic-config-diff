@@ -1,7 +1,7 @@
 import os
-from diff.differs.AbstractDiff import AbstractDiff
-from diff.parsers.ParseYaml import YamlObject
-from diff.utils import utils
+from differs.AbstractDiff import AbstractDiff
+from parsers.ParseYaml import YamlObject
+from utils import utils
 
 class DiffYamlDict(AbstractDiff):
   def __init__(self, yaml_file_paths, always_unique_keys=[]):

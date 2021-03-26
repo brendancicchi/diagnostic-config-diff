@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from colorama import Fore
 from colorama import Style
-from diff.utils import utils
+from utils import utils
 
 class AbstractDiff(ABC):
   def __init__(self, file_paths):

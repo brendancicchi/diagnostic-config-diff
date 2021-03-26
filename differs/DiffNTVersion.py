@@ -1,6 +1,6 @@
-from diff.parsers.ParseNTVersion import NTVersionObject
-from diff.utils import utils
-from diff.differs.AbstractDiff import AbstractDiff
+from parsers.ParseNTVersion import NTVersionObject
+from utils import utils
+from differs.AbstractDiff import AbstractDiff
 
 
 class DiffNTVersion(AbstractDiff):

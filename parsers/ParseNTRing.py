@@ -1,5 +1,5 @@
 import ipaddress
-from diff.utils import utils
+from utils import utils
 
 class NTRingObject:
   def __init__(self, nodetool_ring_file):

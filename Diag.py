@@ -5,10 +5,10 @@ import requests
 
 from colorama import Fore
 from colorama import Style
-from diff.parsers.ParseNTStatus import NTStatusObject
-from diff.differs.DiffYamlDict import DiffYamlDict
-from diff.differs.DiffNTVersion import DiffNTVersion
-from diff.utils import utils
+from parsers.ParseNTStatus import NTStatusObject
+from differs.DiffYamlDict import DiffYamlDict
+from differs.DiffNTVersion import DiffNTVersion
+from utils import utils
 
 cassandra_always_unique_keys = ["rpc_address", "broadcast_rpc_address", "listen_address", \
     "broadcast_address", "native_transport_address", "native_transport_broadcast_address", \
