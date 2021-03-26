@@ -1,2 +1,5 @@
 # Python ignore files
 *.pyc
+__pycache__
+*.egg-info/
+.python-version
